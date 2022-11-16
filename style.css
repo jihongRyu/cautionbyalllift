@@ -1,0 +1,35 @@
+details { margin:5px 0 10px; }
+details > summary { background:#444; color:#fff; padding:10px; outline:0; border-radius:20px; cursor:pointer; transition:background 0.5s; text-align:left; box-shadow: 1px 1px 2px gray;}
+details > summary::-webkit-details-marker { background:#444; color:#fff; background-size:contain; transform:rotate3d(0, 0, 1, 90deg); transition:transform 0.25s;}
+details[open] > summary::-webkit-details-marker { transform:rotate3d(0, 0, 1, 180deg);}
+details[open] > summary { background:#444;}
+details[open] > summary ~ * { animation:reveal 0.5s;}
+.tpt { background:#444; color:#fff; margin:5px 0 10px; padding:5px 10px; line-height:25px; border-radius:5px; box-shadow: 1px 1px 2px gray;}
+
+
+ img{
+
+width:400px;
+ }
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn_foot  {
+    text-decoration: none;
+    text-decoration-color: #fff;
+    background-color: rgb(88, 4, 81);border-radius:100px;
+
+}
+
+p {
+    
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
